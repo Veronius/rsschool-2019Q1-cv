@@ -9,7 +9,11 @@ You can contact me by:
   - VK: https://vk.com/de_vris
   - GitHub: https://github.com/Veronius
 ## Summary
-### My goals and wishes
+I am 24 years old, almost two years ago I graduated from the BSU Faculty of History. From that moment I work as an archivist. More than six months ago, I decided that I was acutely lacking new knowledge, I wanted to learn something useful for myself. I chose to study web technologies, mainly because I always wanted to understand how it works from the inside and wanted build web-cites on my own.
+
+Now I am very highly motivated to acquire new knowledge and new profession of a web developer. I try to devote time to self-study and practice every day and now I think I know much more, than I knew at the beginning of my path of web-developer. But at the same time, I understand how much more I still have to study, and I am **very excited** about it. 
+
+The acquisition of knowledge, skills and, at the end _(and start, i hope)_, the profession - that is the goal that stands before me now.
 
 ## Skills
  - HTML5, CSS3
