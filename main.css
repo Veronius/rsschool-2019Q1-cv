@@ -49,12 +49,40 @@ body {
 }
 .navigation {
     display: flex;
-    height: 180px;
+    height: 60px;
+    background-color: #a73333;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 1024px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    justify-items: end;
+    padding-top: 21px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+.my-photo {
+    width: 170px;
+    height: 155px;
+    padding-left: 18px;
+    background-color: #a73333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: -14px;
+
 }
 .my-photo img {
     width: 150px;
-    height: 150px;
+    border-radius: 25px;
 }
+
 section {
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     border:solid 5px hsla(0, 95%, 35%, 1);
@@ -66,10 +94,12 @@ section {
     background-image: url("cardboard.png");
     background-repeat: repeat;
     line-height: 1.4rem;
+
 }
 h1 {
     font-size: 40px;
     font-weight: bold;
+    margin: 200px 0 15px 0;
 }
 h3 {
     font-size: 25px;
@@ -79,4 +109,7 @@ h3 {
 }
 p {
     padding-bottom: 8px;
+}
+strong {
+    font-weight: bold;
 }
