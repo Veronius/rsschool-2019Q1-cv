@@ -97,15 +97,40 @@ section {
 
 }
 h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
-    margin: 200px 0 15px 0;
+    font-style: italic;
+    margin: 188px 0 15px 0;
+    border-bottom: solid 5px hsla(0, 95%, 35%, 1);
+    border-radius: 346px 225px 15px 255px;
 }
 h3 {
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
     padding: 10px 0 15px 5px;
+}
+.contacts li {
+    padding-top: 10px;
+    font-weight: bold;
+}
+.contacts a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 10px;
+}
+.socials {
+    display: flex;
+}
+.socials img {
+    width: 40px;
+    height: 40px;
+    padding: 5px 20px 0 0;
+}
+.socials img:hover {
+    filter: invert(24%) sepia(24%) saturate(3684%) hue-rotate(334deg) brightness(107%) contrast(87%);
 }
 p {
     padding-bottom: 8px;
