@@ -1,4 +1,4 @@
-# My name is Ilya Viarbila.
+# My name is Ilya Viarbila and i want to be a web-developer
 ## My Contacts:
 I live in Minsk, Belarus.
 You can contact me by:

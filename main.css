@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    height: 60px;
+    background-color: #a73333;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 1024px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    justify-items: end;
+    padding-top: 21px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+.my-photo {
+    width: 170px;
+    height: 155px;
+    padding-left: 18px;
+    background-color: #a73333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: -14px;
+
+}
+.my-photo img {
+    width: 150px;
+    border-radius: 25px;
+}
+
+section {
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 5px hsla(0, 95%, 35%, 1);
+    padding: 30px;
+    width: 1024px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-image: url("cardboard.png");
+    background-repeat: repeat;
+    line-height: 1.4rem;
+
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 188px 0 15px 0;
+    border-bottom: solid 5px hsla(0, 95%, 35%, 1);
+    border-radius: 346px 225px 15px 255px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0 15px 5px;
+}
+.contacts li {
+    padding-top: 10px;
+    font-weight: bold;
+}
+.contacts a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 10px;
+}
+.socials {
+    display: flex;
+}
+.socials img {
+    width: 40px;
+    height: 40px;
+    padding: 5px 20px 0 0;
+}
+.socials img:hover {
+    filter: invert(24%) sepia(24%) saturate(3684%) hue-rotate(334deg) brightness(107%) contrast(87%);
+}
+p {
+    padding-bottom: 8px;
+}
+strong {
+    font-weight: bold;
+}
+.skills li {
+    padding: 5px 0 5px 5px;
+}
+.skills li::before {
+    content: "✓";
+    font-size: 15px;
+    height: 10px;
+    width: 10px;
+    padding-right: 5px;
+}
+.skills p {
+    padding-top: 10px;
+}
